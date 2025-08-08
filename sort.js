@@ -14,4 +14,8 @@ ages.sort();
 
 // ascending(choto theke boro dike jacce)
 const sorted_ages = ages.sort(function (a, b) { return a - b });
-console.log(sorted_ages);
+// console.log(sorted_ages);
+
+// descending(boro theke choto jacee)
+const sorted_ages_des = ages.sort(function (a, b) { return b - a });
+console.log(sorted_ages_des)
